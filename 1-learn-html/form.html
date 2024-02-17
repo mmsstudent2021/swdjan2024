@@ -1,0 +1,100 @@
+<h1>Student Register Form</h1>
+
+<form action="https://mms-it.com" method="get">
+  <fieldset>
+    <legend>Fill your information</legend>
+    <table>
+      <tr>
+        <td>
+          <label for="your_name">Your Name</label>
+        </td>
+        <td>
+          <input
+            required
+            autofocus
+            type="text"
+            id="your_name"
+            name="your_name"
+          />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="your_email">Your Email</label>
+        </td>
+        <td>
+          <input required type="email" id="your_email" name="your_email" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="password">Password</label>
+        </td>
+        <td>
+          <input type="password" id="password" name="password" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="salary">Salary</label>
+        </td>
+        <td>
+          <input type="number" id="salary" name="salary" />
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Gender</label>
+        </td>
+        <td>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="male">Male</label>
+
+          <input type="radio" name="gender" id="female" value="female" />
+          <label for="female">Female</label>
+
+          <input type="radio" name="gender" id="other" value="other" />
+          <label for="other">Other</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label>Your Skill</label>
+        </td>
+        <td>
+          <input type="checkbox" name="skill" id="html" value="html" />
+          <label for="html">html</label>
+
+          <input type="checkbox" name="skill" id="css" value="css" />
+          <label for="css">css</label>
+
+          <input type="checkbox" name="skill" id="js" value="js" />
+          <label for="js">js</label>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="Nationality">Nationality</label>
+        </td>
+        <td>
+          <select name="Nationality" id="Nationality" required>
+            <option value="" selected>Select nation</option>
+            <option value="mm">Myanmar</option>
+            <option value="ch">Chinese</option>
+            <option value="kr">Korean</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <label for="address">Your Address</label>
+        </td>
+        <td>
+          <textarea name="address" id="address" cols="22" rows="5"></textarea>
+        </td>
+      </tr>
+    </table>
+    <hr />
+    <button>Register Now</button>
+  </fieldset>
+</form>
