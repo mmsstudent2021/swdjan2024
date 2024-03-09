@@ -1,0 +1,23 @@
+p {
+  color: plum;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* li {
+  color: green;
+} */
+
+.fruit {
+  color: red;
+}
+
+.electronic {
+  color: yellow;
+}
+
+#list {
+  background-color: lightgray;
+}

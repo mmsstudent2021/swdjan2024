@@ -1,0 +1,28 @@
+.heading {
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-family: monospace;
+  font-size: 50px;
+}
+
+.para {
+  /* text-decoration: overline; */
+  text-transform: capitalize;
+  word-spacing: 10px;
+  line-height: 40px;
+  font-weight: 900;
+  font-family: Montserrat;
+}
+
+.del {
+  text-decoration: line-through;
+}
+
+.mm {
+  /* letter-spacing: 2px; */
+  word-spacing: 10px;
+  font-family: "Padauk Sagar";
+  font-weight: normal;
+  font-style: italic;
+}
