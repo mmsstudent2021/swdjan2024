@@ -1,0 +1,18 @@
+.heading {
+  background-color: orange;
+  padding: 20px;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 100px;
+  /* box-shadow: -10px -10px 10px 10px rgba(40, 40, 40, 0.096); */
+  /* text-shadow: 5px 5px pink; */
+  box-shadow: 5px 5px 10px rgba(255, 0, 0, 0.381),
+    10px -10px 10px rgba(135, 207, 235, 0.371),
+    -15px 15px 10px rgba(0, 0, 255, 0.367);
+}
+
+.text-box {
+  margin: 100px;
+  font-size: 100px;
+  text-shadow: 10px 10px 10px red, 20px 20px 20px pink;
+}
