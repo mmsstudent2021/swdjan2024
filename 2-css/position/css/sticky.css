@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 20px;
+}
+
+.box {
+  border: 2px solid black;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+h1 {
+  background-color: gray;
+  margin-bottom: 20px;
+  padding: 10px;
+  position: sticky;
+  /* fixed */
+  top: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+}
