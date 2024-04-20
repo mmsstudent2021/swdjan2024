@@ -1,0 +1,26 @@
+
+.pe::after {
+ content: "*";
+ margin-left: 10px;
+}
+
+.pe::before {
+    content: "Hello";
+    color: aquamarine;
+    margin-right: 10px;
+}
+
+.pe::first-letter {
+    font-size: 50px;
+}
+
+.para::first-line{
+    color: blueviolet;
+}
+
+.para::selection {
+    color: black;
+    background: firebrick;
+    background-color: cadetblue;
+}
+
