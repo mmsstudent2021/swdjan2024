@@ -1,0 +1,15 @@
+.img {
+    width: 300px;
+    transition: ease-in-out 0.5s;
+    /* rotate:  50deg; */
+}
+.container {
+    background-color: aqua;
+}
+
+.img:hover{
+    /* transform: scaleY(0.8); */
+    transform: rotate(0.3turn);
+    transform: translateX(10%);
+
+}
