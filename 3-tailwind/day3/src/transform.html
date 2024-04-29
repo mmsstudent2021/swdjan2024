@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .container{
+        margin: 10px;
+        border: 1px solid black;
+        height: 600px;
+    }
+
+    .obj{
+        width: 200px;
+        /* transform: translateX(30px) translateY(40px); */
+            /* transform: translate(30px, 50px); */
+        /* translate: 30px 40px; */
+
+        /* transform: rotate(-30deg); */
+        /* rotate: 30deg; */
+
+        /* transform: skewY(30deg); */
+        /* transform:  scaleY(2); */
+        /* transform: rotateX(60deg); */
+        transition: 1s;
+      
+        transform-origin: 100% 100%;
+
+    }
+
+    .obj:hover{
+        transform: rotate(40deg);
+    }
+</style>
+<body>
+    
+    <div class="container">
+       <img class="obj" src="https://images.unsplash.com/photo-1714032857191-deda5932bcc1?q=80&w=774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+    </div>
+
+
+</body>
+</html>
