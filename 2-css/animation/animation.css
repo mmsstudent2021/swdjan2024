@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.obj {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    background: #b4e8fe;
+}
+
+.obj2 {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    background: #b4e8fe;
+}
+
+
+
+.obj3 {
+    margin: 10px;
+    border: 1px solid black;
+    padding: 15px;
+    background: #b4e8fe;
+}
+
+
+.formRight {
+    animation-name: fromRight;
+    transform-origin: 0 100%;
+}
+
+.fill-both{
+    animation-fill-mode: both;
+
+}
+
+.duration-500 {
+    animation-duration: 500ms;
+}
+
+.delay-1000{
+    animation-delay: 1000ms;
+}
+
+.delay-2000{
+    animation-delay: 2000ms;
+}
+
+.delay-3000{
+    animation-delay: 3000ms;
+}
+
+@keyframes fromRight {
+    from {
+        transform: rotate(1turn);
+        background: blue;
+        opacity: 0;
+        scale: 0.5;
+        /* transform: translateX(-100%); */
+        border : 0px;
+    }
+
+    to {
+        transform: rotate(0);
+        opacity: 1;
+        color: red;
+        scale: 1;
+        /* transform: translateX(0); */
+        border: 5px;
+    }
+}
